@@ -102,3 +102,72 @@ int ending()
     printf("\nMAGNUS FAILED THE TASK AND RAN AWAY IN FEAR");
     return 0;
 }
+#include <stdio.h>
+#include<string.h>
+void weapon();
+void main()
+{   
+    char c;
+    printf("\t!!!!!!!!!! CONGRATULATION!!!!!!!!!!\t\n");
+    printf("\t***YOU HAVE REACHED LEVEL 5*\t\n");
+    printf("\t##YOU HAVE UNLOCKED ELDRITCH WAND##\t\n ");        // Eldrithch wand- A magical wand with mysterious powers
+    printf("Magnus Lord think wishely before entering the choice\t\n");
+    printf("\n Once you enter there is no turning back\n");
+    printf("DO YOU WANT TO CONTINUE Y/N OR y/n");
+    scanf("%s",&c);
+    if (c=='Y'||c=='y')
+    {
+        printf("!!!GREAT CHOICE MAGNUS LORD!!!\n *YOU WILL SUCCEDD IN YOUR REVENGE* \n");
+        weapon();
+        
+    }
+    else{
+        printf("!!!Magnus you chose not to continue....now your people will be trapped under the monsters forever and starve to death...");
+        printf("GAME OVER!!!!!");
+        
+    }
+}
+void weapon()
+{
+char v,n[20],unlock;
+    int d,a,b,t;
+    printf("Choice the weapon \n 1. Arondight \n 2. Deathwalker's firearm\n 3. Moonstone Serpent Scepter\n 4. Flying dragons\n 5. Final finish\n");
+    printf("choose an option");
+    scanf("%d",&d);
+    printf("You should carefully while entering their area\n It will be very DANGEROUS\n");
+                printf("\t!!!!!**LET'S START THE GAME!!!!!**\t\n");
+    switch(d)
+    {
+    case(1):printf("Arondight\n*****Activated****\n");
+                printf("The monster is an ice giant and his only weakness is heat\n");
+                printf("Magnus arrived and said!!, Yes, my years of waiting are finally over,  today I will finally complete my duty towards my people\n");
+                printf("Magnus sword was not made up of fire.");
+                printf("Still he carries his sword , to kill that monster");
+                printf("The battle starts, Magnus dodges multiple attacks by the monster, but the monster finally slashes the Magnus with his powers, an injured Magnus falls down on the ground, then the monster takes the Arondigh sword from Magnus,rises it above and drives it through the Magnus's chest....");
+                printf("\nMAGNUS dies...\n");
+                printf("PROUD OF YOU MAGNUS !!!!\nYOU ARE A WARRIOR!!!!!\n");
+                printf("GAME OVER!!!!!!");
+                
+                break;
+    case(2):printf("Deathwalker's firearm\n*****Activated***\n");
+                printf("The monster is a rock made of Calcium Carbonate. ");
+                printf("When Magnus arrives with his powerful Deathwalker's firearm.");
+                printf("\nHe challenges the monster to battle and says, !!!!For the good of the world, I am going to finish you off");
+                printf("The fight begins, the monster immediately recognizes the effect the weapon could have on him, he immediately grabs the weapon from the Magnus and throws it away,then he says,You cannot destroy me!!!!!!");
+                printf("Magnus dodges a huge smash by the monster,he repeatedly tries to dodge the monster's hits and in the he end fails, the monster hits him and he flies away into a rock.\n");
+                printf("The monster arrives before him and smashes him to death and laughs ~~~Haaaaahahaaaaa...\n");
+                printf("He sacrificed his life to save his people");
+                printf("\nPROUD OF YOU MAGNUS LORD !!!!\nYOU ARE A WARRIOR!!!!!\n");
+                printf("GAME OVER!!!!!!");
+                break;
+    case(3):printf("Moonstone Serpent Scepter\n*****Activated***\n");
+                printf("Monster's only weakness is serpent venom...");
+                printf("The Monster is confronted by Magnus who is holding the scepter. Magnus says, Yes, my years of waiting are finally over, today I will finally complete my duty towards my people.");
+                printf("When Magnus challenges the monster to the battle, the monster tries to take the scepter away from him, the monster understands that the scepter is the only way the Magnus could kill him, so the monster decides to break it."); 
+                printf("\nThe fight starts,Magnus dodges the monster's attack multiple times but in the end gets smashed by the monster.");
+                printf("Then he realizes that the only the way to kill the monster is by unlocking his Eldrithch wand which content different powerful spells,he throws the scepter at the monster...the monster breaks it....and now as the scepter was broken,the monster thought that Magnus will be killed by him but !!!what the monster did not know that Magnus had used this special powers. ");  
+                printf("After using the spells, the monster was under his control he used the real serpent venom and killed the Monster.");     
+                printf("\nYOU SAVED THE WORLD!!!!!!");
+                printf("\nPROUD OF YOU MAGNUS LORD !!!");
+                printf("\nYOU ARE FREE NOW!!!!!");
+                break;
