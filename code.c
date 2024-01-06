@@ -149,7 +149,7 @@ void main()
               printf("....do...you... wish... for power?\nThe voice is alluring\n1 Accept\n2 Decline\n");
               printf("Enter your choice: ");
               scanf("%d",&ch12);
-              if(ch12==1||ch12==2)
+              if(ch12==1)
               {
                   printf("You accept the mysterious offer.....\n");
                   printf("The golden ring glows at an blinding bightness, the light envelops the dark dungeon...\nAs the light fades away, you find yourself with a new weapon\nOBTAINED: AMOS BOW\n");
