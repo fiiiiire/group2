@@ -76,6 +76,195 @@ void main()
                 story();
                 lvl=3;
             }
+                  if(lvl==3)
+              {  printf("\t\t\t CONGRATULATIONS! WELCOME TO LEVEL 3!\n");
+    printf("Choose a reward for clearing the level!\n");
+    printf("1\t A golden ring with a bright blue stone; it never stops to shine\n2\tAn amulet that doesn't standout, but there's few words written. A spell?\n");
+    printf("You choose? ");
+    scanf("%d",&ch9);
+    switch (ch9)
+    {
+        case (1):
+        {
+            printf("You have chosen the golden ring!");
+            printf("\nYou wear the ring, the shine of the stone dims for a moment, before it comes back. Faling your expectations, there is nothing out of the ordinary");
+            printf("\nWith the ring on, you continue with your journey. Hopefully, this priceless artifact prooves to be of use.");
+            printf("\n--------------------------------------------------------------------------------------------------------------------------------------");
+            printf("\nYour journey takes you to yet another dugeon.");
+            s1=1;
+            break;
+        }
+        case (2):
+        {
+            printf("You have chosen the amulet!");
+            printf("\nYou wear the amulet, within a flash of a moment, the amulet latches itself onto your skin.");
+            printf("\nUh oh, it's a cursed artifact. you have been cursed.");
+            printf("\n\t\t\t*Achievement unlocked: This or that, one of them is bad*");
+            printf("\n Hurry up! What do you do?");
+            printf("\n1 Destroy the amulet?\n2 Let it be?");
+            printf("\nEnter choice: ");
+            scanf("%d",&ch10);
+            switch(ch10)
+            {
+                case (1):
+                {
+                    printf("\nYou try to destroy the amulet.\n\t*****BANG*****\n\t\tThe amulet bursts\n\t\t\tYou have died.");
+                    printf("\n\t\t\t\tGAME OVER");
+                    break;
+                }
+                case (2):
+                {
+                    printf("\nYou let the amulet as it be.\nIt doesn't trouble you much\nAfter a while, it just settles in. Was this the right choice?");
+                    printf("\n\t\t\t*Achievement Unlocked: Cursed trouble; You let it be. Perhaps the amulet is more of a friend than foe*");
+                    printf("\n Now with the amulet in hand, you make your way to the dungeon.");
+                    s1=2;
+                    break;
+                }
+                default:
+                printf("Invalid choice, please choose 1 or 2");
+            }
+            break;
+        }
+        default:
+        printf("Invalid choice, please choose 1 or 2");
+    }
+    if(s1==1)
+    {
+        printf("\nEntering the dugeon you come to face with the {LORD OF DRAGONS: HANMA}!");
+        printf("\nEntering fight........");
+        printf("\nLord of dragons: Hanma;\nStats:\nHP:7000\tATK:2000\nDEF:2500\tWeapon: Nil\n");
+        printf("DESC: The fallen king of the dragons holds nothing but resentment towards the human kind.\nThe dragon intends to show no mercy\n");
+        printf("^^^^^Extra information: It is beleived that once the defence of the dragon is taken down, it becomes immobile and highly vulernable to attacks.\nHowever this opening remains for only 3 turns;");
+        printf("\nThe defence system respawns if failed to defeat in first go;");
+         printf("\n****START****");
+         printf("\nThe dragon attacks!!! It slashes it's claws at you! Hurry! make the choice: \n1 Dodge\n2 Attack back\nEnter your choice:");
+         scanf("%d",&ch11);
+         switch(ch11)
+         {
+          case (1):
+          {
+              printf("You have sucessfully dodged the attack!!");
+              printf("Your turn; you attack the dragon with your sword. It is effective, but not powerful enough. (*HANMA DEF: -250*)");
+              printf("\nYour golden ring catches your eye, As the lord of dragons charge up for the next blow, you hear a small whisper\n");
+              printf("....do...you... wish... for power?\nThe voice is alluring\n1 Accept\n2 Decline\n");
+              printf("Enter your choice: ");
+              scanf("%d",&ch12);
+              if(ch12==1||ch12==2)
+              {
+                  printf("You accept the mysterious offer.....\n");
+                  printf("The golden ring glows at an blinding bightness, the light envelops the dark dungeon...\nAs the light fades away, you find yourself with a new weapon\nOBTAINED: AMOS BOW\n");
+                  printf("\t\t\t*Achievement unlocked: The bow that trancends from the sky*");
+                  printf("\nAmos Bow\nStats\nBase atk:360\tSpecial stat: Critical damage\nExtra information: When aimed with prescision and accuracy, the opponent hit with the arrow launched by this bow experience a debuff in defence");
+                  printf("\nWooho! You have obtained the perfect weapon to fight againt the dragon!");
+                  printf("\nWith high presicion, you aim your arrow at the dragon. The arrow's tip shines;indicating that it has charged up!");
+                  printf("\nYou shoot the arrow, the dragon wails at the impact and scream in agony....\n(*HANMA DEF:-2250*)");
+                  printf("\n\tYou have successfully taken down the defence bar! Time to attack!");
+                  printf("Taking your sword, you launch forward to end the terror of lord of dragons.\nMustering all your power that flows within, you swing your sword with all your might....\n");
+                  printf("\n*Achievement unlocked: The tale of the dragon remains untold....*");
+                  printf("\n\t\t\tCONGRATULATIONS! YOU HAVE CLAIMED YOUR VICTORY!");
+                  printf("\nYou may proceed to the next level.");
+                  printf("Do you wish to continue?\n1 Yes\n2 No");
+                  printf("\nEnter your choice: ");
+                  scanf("%d",&ch13);
+                  if(ch13==1)
+                  {
+                      f=1;
+                  }
+                  else{
+                      f=2;
+                  }
+              }
+              else
+              {
+                  printf("You decline the offer.");
+                  printf("\nAs the fight progresses, you become exhausted. You are unable to keep up with the attacks of the dragon.\nThe ring shines again, as if calling to you\nBut before you coul reconsider your options the dragon attacks with a final blow, summoning a breath of fire that wipes away everything in the way.\nIn your last moments, the only thoughts remain in you, is to be reunitied with your parents.");
+                  printf("\nYou have died.");
+                  printf("\n\t\t\t\tGAME OVER");
+                  
+              } break;
+              
+          }
+          case (2):
+          {
+              printf("\nYou chose to attack back");
+              printf("\nAs you take your stance to attack back, the dragon stomps onto the ground, \nthe heavy impact makes the ground shake\nYou lose your balance and the ground beneath you crumbles down\nYou fall down into the pool of hot lava\n");
+              printf("You died.");
+              printf("\n\t\t\tGAME OVER");
+              break;
+          }
+         }
+    }
+    else if(s1==2)
+    {
+     printf("\nEntering the dugeon you come to face with the {LORD OF DRAGONS: HANMA}!");
+        printf("\n\nEntering fight........");
+        printf("\nLord of dragons: Hanma;\nStats:\nHP:7000\tATK:2000\nDEF:2500\tWeapon: Nil\n");
+        printf("DESC: The fallen king of the dragons holds nothing but resentment towards the human kind.\nThe dragon intends to show no mercy\n");
+        printf("^^^^^Extra information: It is beleived that once the defence of the dragon is taken down, it becomes immobile and highly vulernable to attacks.\nHowever this opening remains for only 3 turns;");
+        printf("\nThe defence system respawns if failed to defeat in first go;");
+         printf("\n****START****");
+          printf("\nThe dragon attacks!!! It slashes it's claws at you! Hurry! make the choice: \n1 Dodge\n2 Attack back\nEnter your choice:");
+         scanf("%d",&ch14);
+         switch(ch14)
+         {
+             case (1):
+             {
+                 printf("\nYou manage to dodge in time!\n");
+                  printf("Your turn; you attack the dragon with your sword. It is effective, but not powerful enough. (*HANMA DEF: -250*)\n");
+                  printf("You remember about the amulet\n Could it be of use?\n");
+                  printf("1 You take the help of the amulet\n2 You don't take the help of the amulet\n");
+                  printf("Enter your choice: ");
+                  scanf("%d",&ch15);
+                  if(ch15==1)
+                  {
+                      printf("\nYou take the help of the amulet, reciting the spell embedded within");
+                      printf("Little did you know, within the amulet resides the devil's soul.\nUpon recitation of the forbidden spell, the devil breaks free\nTime freezes as the devil come out; it feel surreal to see what's happening\tThe sheer power the devil holds is frightening");
+                      printf("'If\tI\twant\tI\tcould\tend\tyou'\n'But\tfor\tonce\tI\t\nMake\tan\texception.'");
+                      printf("\nThe devil offers you a A bow: cursed as it is, holds great power nonetheless\n");
+                      printf("You accept the offer after much contemplation ");
+                       printf("\n\t\t\t*Achievement unlocked: The bow from the depths of hell*");
+                  printf("\nThe thundering Pulse Bow\nStats\nBase atk:380\tSpecial stat:Critical rate\nExtra information: When aimed with prescision and accuracy, the opponent hit with the arrow launched by this bow will have it's health reduced by half. This effect can occur only once throughout the fight\n");
+                printf("With that the devil bids farewell, leaving you to fight the lord of dragons.");
+                 printf("\nWith high presicion, you aim your arrow at the dragon. The arrow's tip shines;indicating that it has charged up!");
+                  printf("\nYou shoot the arrow, the dragon wails at the impact and scream in agony....\n(*HANMA HP:-3500*)");
+                  printf("\n\tYou have successfully taken down the Health bar! Time to attack!");
+                  printf("Taking your sword, you launch forward to end the terror of lord of dragons.\nMustering all your power that flows within, you swing your sword with all your might....\n");
+                  printf("\n\t\t\tCONGRATULATIONS! YOU HAVE CLAIMED YOUR VICTORY!");
+                  printf("\nYou may proceed to the next level.");
+                  printf("\nDo you wish to continue?\n1 Yes\n2 No");
+                  printf("\nEnter your choice: ");
+                  scanf("%d",&ch16);
+                  if(ch16==1)
+                  {
+                      f=1;
+                  }
+                  else{
+                      printf("Player chose to quit. Game Over.");
+                  }
+                
+                      
+                  }
+                  else
+                  {
+                      printf("\nYou do not take the help of the amulet.");
+                      printf("You refuse to take the help of the curse\nBut as you continue to fight the dragon, you feel exhaustion.\n You observe that, no matter what attack you use, it still ends up in being a loop\nThe same thing repeat over and over again, and you lose your control over your body.\n");
+                      printf("The cursed amulet had worked it's charm and taken over your soul.\n Now you can only watch in a daze as the devil controls your body.");
+                      printf("\n\t\t\t*Achievement Unlocked: The devil's charm*");
+                  }
+                  break;
+         }
+                  case (2):
+                  {
+            printf("\nYou chose to attack back:");
+              printf("\nAs you take your stance to attack back, the dragon stomps onto the ground, \nthe heavy impact makes the ground shake\nYou lose your balance and the ground beneath you crumbles down\nYou fall down into the pool of hot lava\n");
+              printf("You died.");
+              printf("\n\t\t\tGAME OVER");
+              break;
+                  }
+             }
+         }
+            }
+        }}
         else
         {
             ending();
