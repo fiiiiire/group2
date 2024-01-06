@@ -52,3 +52,6 @@ void main()
                    printf("hey child...child... wake up:someone is trying to wake you up.you woke up to see a bunch of adventurers\nmagnus checked in a hurry to see if he still have his belongings\nluckily they all were there including the red knitted scarf that his mother made for him\nonce again he was remained of his purpose of entering the dungeon\nthe adventurers watched magnus silently\nmagnus finally noticed all this wounds were treated\nit seems the adventurers have treated your wounds\nmagnus thanked them for their help\n");
                    printf("they are going into the second layer and invites you to join them\nREMEMBER:NOTHING IS FREE IN THIS WORLD\n");
                }
+        }
+    }
+}    
