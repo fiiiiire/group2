@@ -277,7 +277,75 @@ void main()
                }
         }
     }
-}  
+} 
+if(f==1)
+         {
+             
+     printf ("WELCOME TO THE FOURTH LEVEL!!!!");
+     printf("\nTo have crossed the third level,you have certainly proven your bravery!!!");
+     printf ("\nDo you choose to continue to higher levels?(y/n) ");
+     scanf (" %c",&ch17);
+  
+  if (ch17=='y' || ch17=='Y')
+    {
+     printf("You have chosen to continue!");
+     printf("Good Luck on your adventure!");
+    printf("Enter your weapon: \n1.Sword of Excalibur \n2.Amethyst Amulet \n3.Trident of Enma\n");
+    scanf("%d",&ccch2);
+    printf("Choose your choice carefully!\n Each weapon is made only for a specific use! Not all monsters can be defeated using any single weapon!!! ");
+    printf("Let's start the adventure! Trudge on carefully!\n");
+    switch(ccch2)
+    {
+        case(1):
+        printf("You have chosen the Excalibur weapon. It is an enchanted sword with magical powers\n");
+        printf("A transparent barrier forms infront of Magnus. Without any second thoughts,he crosses the barrier. On crossing the barrier,Magnus comes face to face with a giant three headed dog: Cerberus! \nOnly mythical stories have been told about this monster & seeing it infront of him ,sent shivers across Magnus's spine!!\n");
+        printf("The giant dog senses the intruder & is also attracted towards the sword in his hand. The monster takes a leap towards Magnus but he dodges it and runs in the opposite direction.\n");
+        printf("The Cerberus is immune to pain but it is weak to greatswords, shields, ice and light.\nThe Excalibur sword can be used to defeat the monster. The question is how? With no time to answer his own question, Magnus dodges several of the monsters attacks but also sustaions injuries!\n");
+        printf("Suddenly Magnus gets the idea to kill the monster by driving the sword through it's heart! After much struggle ,he finally succeeds & the monster is defeated!\n");
+        printf("Congratulations Magnus!You have sucessfully defeated the monster\n");
+        printf("You may proceed to the next level!\n");
+        s2=1;
+        break;
+        
+        case(2):
+        printf("You have chosen the Amethyst amulet! This amulet has the special powers to thwart off any minor dangers on your way!\n");
+        printf("A transparent shiny barrier forms infront of Magnus & Magnus carries on forward without any fears trusting the amulet he's wearing.\n");
+        printf("But what he sees infont of him made Magnus lose control of his guard. A beautiful maiden with shining blonde hair and skin as shining as that of a pearl with cheeks that resembled that of a red rose and eyes as pure as that of a crystal clear blue ocean. Seeing her made Magnus weak on his knees & he moved towards the maiden.\nThe maiden extended her hands towards him and he falls for her embrace without second thoughts.\nMagnus feels light and warm & his stresses from previous levels ease out of his body.\n");
+        printf("Suddenly the maiden snatches the amulet from Magnus's neck & destroys it with her fist. The maiden transforms into it's true form.It was Aris: The goddess of contempt.\nThis level was a test to see if Magnus would disregard the dangers around him when he loses his focus for a bit. And Magnus clearly failed in it!\n");
+        printf("With his amulet destroyed, Magnus now has no weapons to defend himself! Aries drives her sword throgh Magnus & dies instanly\n");
+        printf("`````GAME OVER`````");
+        break;
+        
+        case(3):
+        printf("You have chosen the Trident of Enma. This tridenet has the ability to kill any of the land monsters & is a very powerful weapon!.\n");
+        printf("Another transparent barriers forms & Magnus heads forward with caution. With the trident on his hand ,Magnus feels unusually more powerful!\n");
+        printf("The monster here is a centaur. With a body half of that of man and the other half as that of a horse, they're creatures that show no mercy when you trespass their area. Magnus, uninvited becomes their prime source of threat!\n");
+        printf("The centaur starts attacking Magnus with it's strong hooves and sharp bows! And because Magnus possess the trident, he's considered more of an enemy than that of an intruder & Magnus is not given a chance to explain himself!\n");
+        printf("After sustaining multiple injuries, Magnus finally kills it after driving thr trident through it's head. This battle felt unnecessary but Magnus had no other choice but to kill it to enter the enxt levels\n");
+        printf("Congratulations! With this task completed, you're succesfully entitled to enter the next level!\n");
+        printf("Do you wish to continue?\n1 Yes\n2 No");
+                  printf("\nEnter your choice: ");
+                  scanf("%d",&ccch3);
+                  if(ccch3==1)
+                  {
+                      s2=1;
+                  }
+        break;
+        
+    
+    default:
+    printf("wrong choice");
+    break;
+
+    }
+      
+    }
+        else
+    {
+      printf("You have chosen not to continue you adventure.\nThe haunted memories begin to take a toll on your mental health.You start feeling hopeless & depressed as you're unable to avenge your family!! Your mental health is on the brink of tripping off!You decide to end your life after accepting your failure!!!\n");  
+      printf("\t\t*************GAME OVER****************\t\t");
+    }
+
 int story()
 { char cch3;
 printf("IT WAS A WISE DECISION. NOW YOU ARE POWERFUL ENOUGH TO KILL THE MONSTER . \nYOU WILL REACH ITS DEN BY MIDNIGHT.\nYOU CONTINUE TO WALK AND YOU REACHED THE DEN. YOU CAN SEE THE BEAST. \nBUT YOU NOTICED SOMETHING ELSE. YOU NOTICED ONE OF THE ADVENTURERS AND ONE OF THEM TRANSFORMING INTO THE BEAST .\nYOU STAYED SILENT AND WATCHED EVERYTHING,SUDDENLY YOU NOTICED SOMETHING ELSE.... \n                        ITS YOUR FAMILY.....                  \nYOU GET SHOCKED. YOU WERE MENTALLY UNPREPARED TO SEE YOUR PARENTS LIKE THAT.\nYOU THOUGHT THAT THE BEASTS WERE SOME MAGICAL BEINGS AND WAS TRYING TO CAPTURE YOUR FAMILY.... \nIN ALL EXICETMENT AND HAPPINESS TO SEE YOUR FAMILY BACK YOU RAN INTO THEM .\nONE OF THE BEAST ATTACKED YOU.BUT WITH ALL YOUR STRENGTH YOU FOUGHT BACK.\nYOU TRIED TO USE THE DRAGON SWORD. YOU TOOK IT AND ACTIVATED THE GEM.\nBUT.. SUDDENLY YOUR MOTHER TRANSFORMED INTO A BEAST AND STOPPED YOU... SHE STOPPED THE OTHER BEAST ALSO.\nEVERYONE,HUMANS AND THE BEASTS STAYED SILENT .YOU WERE BEGINING TO FALL. THE FIGHT BROUGHT OUT ALL OF THE STRENGTH IN YOU.YOU FELL DOWN.\nBY THE MORNING THE PACK HAS LEFT THE LAYER 2 .YOUR WOUNDS WERE ALL TREATED. YOU WERE HEALTHY AND FRESH AS A NEW-BORN.\nNOW, AT THE MOMENT YOU HAVE THE PEACE THAT BY SEEING YOUR FAMILY AND YOU HAVE THE HOPE THAT YOU CAN SEE THEM AGAIN. ");
