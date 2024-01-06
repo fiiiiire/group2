@@ -171,3 +171,39 @@ char v,n[20],unlock;
                 printf("\nPROUD OF YOU MAGNUS LORD !!!");
                 printf("\nYOU ARE FREE NOW!!!!!");
                 break;
+    case 4:printf("**Welcome to round 4**\nTask:kill all flying dragons\nTo kill all flying dragons Magnus must release *blue crystal* WRITE:'unlock' to release crystal");
+        scanf("%s",n);
+        if (strcmp(n,"unlock")==0)
+        {
+        printf("Blue crystal unlocked\n");
+        printf("Magnus is now in his way to finish all the flying dragons.There are 2 type of flying dragons:big tail and smoke hook\nenter the no.of big tail and smoke hook present so Magnus can release the required no.of blue crystal");
+        scanf("%d%d",&a,&b);
+        t=a+b;
+        printf("%d Blue crystals released",t);
+        printf("\n Magnus has successfully killed all flying dragons\nRound 4 completd\n");
+        }else
+        {
+            printf("Mission failed");
+        }
+        break;
+    case 5:printf("**Welcome to round 5**\nMagnus is at the end of his mission\nIn this level you have to kill the vowel monster.write any VOWEL and finish the fight");
+    scanf("%s",&v);
+    if (v=='a'||v=='A'||v=='e'||v=='E'||v=='i'||v=='I'||v=='o'||v=='O'||v=='u'||v=='U')
+    {
+        printf("Vowel is written\n!!!Monster is destroyed!!!\n");
+    }else
+    {
+        printf("You failed in this mission\n");
+    }
+        default:
+}
+FILE *f2;
+char str[20],ch;
+f2=fopen("Magnus.txt","r");
+while(feof(f2)==0){
+    ch=fgetc(f2);
+    printf("%c",ch);
+}
+fclose(f2);
+}
+        
