@@ -275,8 +275,6 @@ void main()
         ending();
     }
                }
-        }
-    }
 } 
 if(f==1)
          {
