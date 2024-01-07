@@ -359,11 +359,8 @@ int ending()
     printf("\nMAGNUS FAILED THE TASK AND RAN AWAY IN FEAR");
     return 0;
 }
-#include <stdio.h>
-#include<string.h>
-void weapon();
-void main()
-{   
+
+   
     char c;
     printf("\t!!!!!!!!!! CONGRATULATION!!!!!!!!!!\t\n");
     printf("\t***YOU HAVE REACHED LEVEL 5*\t\n");
@@ -383,8 +380,8 @@ void main()
         printf("GAME OVER!!!!!");
         
     }
-}
-void weapon()
+
+void weaponss()
 {
 char v,n[20],unlock;
     int d,a,b,t;
