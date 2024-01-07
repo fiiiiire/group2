@@ -345,7 +345,28 @@ if(f==1)
       printf("You have chosen not to continue you adventure.\nThe haunted memories begin to take a toll on your mental health.You start feeling hopeless & depressed as you're unable to avenge your family!! Your mental health is on the brink of tripping off!You decide to end your life after accepting your failure!!!\n");  
       printf("\t\t*************GAME OVER****************\t\t");
     }
-
+if (s2==1)
+ {   int c1;
+    printf("\t!!!!!!!!!! CONGRATULATION!!!!!!!!!!\t\n");
+    printf("\t***YOU HAVE REACHED LEVEL 5*\t\n");
+    printf("\t##YOU HAVE UNLOCKED ELDRITCH WAND##\t\n ");        // Eldrithch wand- A magical wand with mysterious powers
+    printf("Magnus Lord think wishely before entering the choice\t\n");
+    printf("\n Once you enter there is no turning back\n");
+    printf("DO YOU WANT TO CONTINUE\n1.Yes\n2.No\nYour choice: ");
+    scanf("%d",&c1);
+    if (c1==1)
+    {
+        printf("!!!GREAT CHOICE MAGNUS LORD!!!\n *YOU WILL SUCCEDD IN YOUR REVENGE* \n");
+        weaponss();
+        
+        
+    }
+    else{
+        printf("!!!Magnus you chose not to continue....now your people will be trapped under the monsters forever and starve to death...");
+        printf("GAME OVER!!!!!");
+        
+    }}
+}}
 int story()
 { char cch3;
 printf("IT WAS A WISE DECISION. NOW YOU ARE POWERFUL ENOUGH TO KILL THE MONSTER . \nYOU WILL REACH ITS DEN BY MIDNIGHT.\nYOU CONTINUE TO WALK AND YOU REACHED THE DEN. YOU CAN SEE THE BEAST. \nBUT YOU NOTICED SOMETHING ELSE. YOU NOTICED ONE OF THE ADVENTURERS AND ONE OF THEM TRANSFORMING INTO THE BEAST .\nYOU STAYED SILENT AND WATCHED EVERYTHING,SUDDENLY YOU NOTICED SOMETHING ELSE.... \n                        ITS YOUR FAMILY.....                  \nYOU GET SHOCKED. YOU WERE MENTALLY UNPREPARED TO SEE YOUR PARENTS LIKE THAT.\nYOU THOUGHT THAT THE BEASTS WERE SOME MAGICAL BEINGS AND WAS TRYING TO CAPTURE YOUR FAMILY.... \nIN ALL EXICETMENT AND HAPPINESS TO SEE YOUR FAMILY BACK YOU RAN INTO THEM .\nONE OF THE BEAST ATTACKED YOU.BUT WITH ALL YOUR STRENGTH YOU FOUGHT BACK.\nYOU TRIED TO USE THE DRAGON SWORD. YOU TOOK IT AND ACTIVATED THE GEM.\nBUT.. SUDDENLY YOUR MOTHER TRANSFORMED INTO A BEAST AND STOPPED YOU... SHE STOPPED THE OTHER BEAST ALSO.\nEVERYONE,HUMANS AND THE BEASTS STAYED SILENT .YOU WERE BEGINING TO FALL. THE FIGHT BROUGHT OUT ALL OF THE STRENGTH IN YOU.YOU FELL DOWN.\nBY THE MORNING THE PACK HAS LEFT THE LAYER 2 .YOUR WOUNDS WERE ALL TREATED. YOU WERE HEALTHY AND FRESH AS A NEW-BORN.\nNOW, AT THE MOMENT YOU HAVE THE PEACE THAT BY SEEING YOUR FAMILY AND YOU HAVE THE HOPE THAT YOU CAN SEE THEM AGAIN. ");
@@ -360,26 +381,7 @@ int ending()
     return 0;
 }
 
-   
-    char c;
-    printf("\t!!!!!!!!!! CONGRATULATION!!!!!!!!!!\t\n");
-    printf("\t***YOU HAVE REACHED LEVEL 5*\t\n");
-    printf("\t##YOU HAVE UNLOCKED ELDRITCH WAND##\t\n ");        // Eldrithch wand- A magical wand with mysterious powers
-    printf("Magnus Lord think wishely before entering the choice\t\n");
-    printf("\n Once you enter there is no turning back\n");
-    printf("DO YOU WANT TO CONTINUE Y/N OR y/n");
-    scanf("%s",&c);
-    if (c=='Y'||c=='y')
-    {
-        printf("!!!GREAT CHOICE MAGNUS LORD!!!\n *YOU WILL SUCCEDD IN YOUR REVENGE* \n");
-        weapon();
-        
-    }
-    else{
-        printf("!!!Magnus you chose not to continue....now your people will be trapped under the monsters forever and starve to death...");
-        printf("GAME OVER!!!!!");
-        
-    }
+
 
 void weaponss()
 {
