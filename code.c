@@ -171,7 +171,7 @@ void main()
                       f=1;
                   }
                   else{
-                      f=2;
+                        printf("Player chose to quit. Game Over.");
                   }
               }
               else
